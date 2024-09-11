@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de Horario</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1><p align="center">Control de Horario</p></h1>
+        <div class="form-group">
+            <p align="center"><label for="username">Nombre de Empleado:</label>
+            <input type="text" id="username" placeholder="Introduce tu nombre"></p>
+        </div>
+        <div class="form-group">
+            <p align="center"><button id="entry-button">Registrar Entrada</button>
+            <button id="exit-button">Registrar Salida</button></p>
+        </div>
+        <div class="status">
+            <p id="status-message"></p>
+        </div>
+        
+        <h2><p align="center">Registro de Horarios</p></h2>
+        <div class="log-container">
+            <ul id="log-list"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
